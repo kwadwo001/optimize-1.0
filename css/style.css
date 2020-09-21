@@ -6,7 +6,9 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
-
+body {
+  overflow-x: hidden;
+}
 .wrapper {
   width: 40px;
   height: 100px;
@@ -4460,6 +4462,9 @@ h6 {
   border: none;
   font-weight: 500;
   cursor: pointer;
+}
+.main-content {
+  height: 100vh;
 }
 /*---------------------------------------------------- */
 
